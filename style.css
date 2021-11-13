@@ -4,12 +4,20 @@ body {
 
   text-align: center;
 }
+container {
+  display: flex;
+  justify-content: space-between;
+}
+header {
+}
 main {
   text-align: left;
   padding: 15px;
-  background-color: darkgray;
+  background-color: rgb(238, 232, 232);
+  border-radius: 5%;
+  margin: 5px;
 }
-.logo {
-  width: 50px;
-  height: 20px;
+
+#content {
+  display: none;
 }
